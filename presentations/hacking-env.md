@@ -1,10 +1,14 @@
-## Hacking Environments
+<!-- .slide: data-background="backgrounds/image1.svg" -->
 
-### A presentation by cyberCWRU
+# Hacking Environments
+
+## A presentation by cyberCWRU
 
 ---
 
 ## Why use an environment?
+
+<!-- .slide: data-background="./../backgrounds/image2.svg" -->
 
 - Isolation is good!
     - Especially if you're analyzing malware or other tools
@@ -14,6 +18,7 @@
 ---
 
 ## Virtual Machines (1/3)
+<!-- .slide: data-background="./../backgrounds/image3.svg" -->
 
 - The are emulated systems
     - Virtualbox, VMware, QEMU
@@ -31,6 +36,7 @@
 
 
 ## Virtual Machines (2/3)
+<!-- .slide: data-background="./../backgrounds/image4.svg" -->
 
 - Snapshots are a rollback feature
 - Different network modes for testing
@@ -46,6 +52,7 @@
 ---
 
 ## Virtual Machines (3/3)
+<!-- .slide: data-background="./../backgrounds/image2.svg" -->
 
 - Be careful!! VM to Host attacks are rare but not impossible!
 - Guest Additions are useful!
@@ -53,6 +60,7 @@
 ---
 
 ## Docker (1/2)
+<!-- .slide: data-background="./../backgrounds/image3.svg" -->
 
 - Docker is a tool to run containerized applications
 - This is similar to VMs, but just for applications
@@ -68,6 +76,7 @@ docker run --rm --interactive --tty -p 8080:80 vulnerables/web-dvwa
 
 
 ## Docker (2/2)
+<!-- .slide: data-background="./../backgrounds/image4.svg" -->
 
 - Setup is really easy!
     1. Install docker
@@ -92,5 +101,6 @@ virtualisation.docker.daemon.settings = {
 ---
 
 ## Thank you!
+<!-- .slide: data-background="./../backgrounds/image2.svg" -->
 
 ### Any questions?
